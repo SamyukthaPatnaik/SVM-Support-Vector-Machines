@@ -37,4 +37,28 @@ The hyperplane with maximum margin is called the optimal hyperplane.
 
 **2. Non-linear SVM:** Non-Linear SVM is used for non-linearly separated data, which means if a dataset cannot be classified by using a straight line, then such data is termed as non-linear data and classifier used is called as Non-linear SVM classifier.
 
+If data is linearly arranged, then we can separate it by using a straight line, but for non-linear data, we cannot draw a single straight line. Consider the below image:
+
+![image](https://static.javatpoint.com/tutorial/machine-learning/images/support-vector-machine-algorithm6.png)
+
+So to separate these data points, we need to add one more dimension. For linear data, we have used two dimensions x and y, so for non-linear data, we will add a third dimension z. It can be calculated as:
+
+```z=x2 +y2```
+
+By adding the third dimension, the sample space will become as below image:
+
+![image](https://static.javatpoint.com/tutorial/machine-learning/images/support-vector-machine-algorithm7.png)
+
+So now, SVM will divide the datasets into classes in the following way. Consider the below image:
+
+![image](https://static.javatpoint.com/tutorial/machine-learning/images/support-vector-machine-algorithm8.png)
+
+Since we are in 3-d Space, hence it is looking like a plane parallel to the x-axis. If we convert it in 2d space with z=1, then it will become as:
+
+![image](https://static.javatpoint.com/tutorial/machine-learning/images/support-vector-machine-algorithm9.png)
+
+Hence we get a circumference of radius 1 in case of non-linear data.
+
+![image](https://i1.wp.com/cmdlinetips.com/wp-content/uploads/2021/02/Linearly_Separable_Data_Example.png?fit=539,234&ssl=1)
+
  
