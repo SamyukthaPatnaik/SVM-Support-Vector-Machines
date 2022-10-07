@@ -61,4 +61,8 @@ Hence we get a circumference of radius 1 in case of non-linear data.
 
 ![image](https://i1.wp.com/cmdlinetips.com/wp-content/uploads/2021/02/Linearly_Separable_Data_Example.png?fit=539,234&ssl=1)
 
- 
+Let us see some common kernels used with SVMs
+1. Linear kernel
+2. Polynomial kernel
+3. Sigmoid kernel
+4. Gaussian radial basis function (RBF)
