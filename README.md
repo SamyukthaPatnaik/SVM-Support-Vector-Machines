@@ -45,7 +45,7 @@ So to separate these data points, we need to add one more dimension. For linear 
 
 ```z=x2 +y2```
 
-By adding the third dimension, the sample space will become as below image:
+**By adding the third dimension**, the sample space will become as below image:
 
 ![image](https://static.javatpoint.com/tutorial/machine-learning/images/support-vector-machine-algorithm7.png)
 
@@ -61,7 +61,7 @@ Hence we get a circumference of radius 1 in case of non-linear data.
 
 ![image](https://i1.wp.com/cmdlinetips.com/wp-content/uploads/2021/02/Linearly_Separable_Data_Example.png?fit=539,234&ssl=1)
 
-Let us see some common kernels used with SVMs
+**Let us see some common kernels used with SVMs**
 1. Linear kernel
 2. Polynomial kernel
 3. Sigmoid kernel
