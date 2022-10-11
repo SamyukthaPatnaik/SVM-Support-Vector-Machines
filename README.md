@@ -47,6 +47,7 @@ So to separate these data points, we need to add one more dimension. For linear 
 
 **By adding the third dimension**, the sample space will become as below image:
 
+
 ![image](https://static.javatpoint.com/tutorial/machine-learning/images/support-vector-machine-algorithm7.png)
 
 So now, SVM will divide the datasets into classes in the following way. Consider the below image:
